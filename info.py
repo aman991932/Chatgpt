@@ -1,15 +1,15 @@
 # ©️biisal jai shree krishna 😎
 from os import environ
 
-API_ID = environ.get("API_ID", "")
-API_HASH = environ.get("API_HASH", "")
+API_ID = environ.get("API_ID", "12380656")
+API_HASH = environ.get("API_HASH", "d927c13beaaf5110f25c505b7c071273")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_NAME = environ.get("BOT_NAME", "BISAL CHAT BOT")
-ADMIN = int(environ.get("ADMIN", ""))
-CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1001812797837"))
+ADMIN = int(environ.get("ADMIN", "5977931010"))
+CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002028053413"))
 ADMIN_NAME = environ.get("ADMIN_NAME", "Bisal")
 LOG_CHANNEL = environ.get("LOG_CHANNEL", "")
-MONGO_URL = environ.get("MONGO_URL", "")
+MONGO_URL = environ.get("MONGO_URL", "mongodb+srv://aman991932:aman@cluster0.qp6vfyg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 AUTH_CHANNEL = int(
     environ.get("AUTH_CHANNEL", "-100XXXXXXXXXX")
 )  # add your channel id for force subscribe

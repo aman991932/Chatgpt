@@ -1,24 +1,15 @@
-# ©️biisal jai shree krishna 😎
 from os import environ
 
-API_ID = environ.get("API_ID", "12380656")
-API_HASH = environ.get("API_HASH", "d927c13beaaf5110f25c505b7c071273")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7328112987:AAE-m8fhi09-5GtdiSI0Lii8Qvpkg7Snnfs")
-BOT_NAME = environ.get("BOT_NAME", "AV_GPT_BOT")
-ADMIN = int(environ.get("ADMIN", "5977931010"))
-CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002028053413"))
-ADMIN_NAME = environ.get("ADMIN_NAME", "BOT_OWNER26")
-LOG_CHANNEL = environ.get("LOG_CHANNEL", "-1002110971750")
-MONGO_URL = environ.get("MONGO_URL", "mongodb+srv://aman991932:aman@cluster0.qp6vfyg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+API_ID = int(environ.get('API_ID', '21956488'))
+API_HASH = environ.get('API_HASH', '812529f879f06436925c7d62eb49f5d1')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7760069843:AAH4QG0WloZkx9zDgbj0OZjndoU7LGDZ5PE")
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002110971750"))
+ADMINS = int(environ.get("ADMINS", "5977931010"))
+DB_URI = environ.get('DB_URI', "mongodb+srv://aman991932:aman@cluster0.znvdx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get('DB_NAME', "cluster0")
+START_IMG = environ.get('START_IMG', 'https://envs.sh/Aeg.jpg')
+START = environ.get('START', 'https://envs.sh/AwV.jpg')              
 AUTH_CHANNEL = int(
-    environ.get("AUTH_CHANNEL", "-1002012150170")
+    environ.get("AUTH_CHANNEL", "-1002102037760")
 )  # add your channel id for force subscribe
 FSUB = environ.get("FSUB", True)
-STICKERS_IDS = (
-    "CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME"
-).split()
-COOL_TIMER = 20  # keep this atleast 20
-ONLY_SCAN_IN_GRP = environ.get(
-    "ONLY_SCAN_IN_GRP", True
-)  # If IMG_SCAN_IN_GRP is set to True, image scanning is restricted to your support group only. If it's False, the image scanning feature can be used anywhere.
-REACTIONS = ["❤️‍🔥", "⚡", "🔥"]

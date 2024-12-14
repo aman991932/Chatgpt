@@ -11,7 +11,7 @@ class Database:
     def new_user(self, id, name):
         return dict(
             id = id,
-            name = name,,
+            name = name,
         )
     
     async def add_user(self, id, name):

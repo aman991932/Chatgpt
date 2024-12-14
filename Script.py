@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {} 👋, \nɪ ᴀᴍ <a href='https://t.me/AV_IMA_TO_URL_BOT'>ɪᴍᴀɢᴇ ᴛᴏ ʟɪɴᴋ</a> ʙᴏᴛ ɪᴜꜱᴛ ꜱᴇɴᴅ ᴛᴏ ʏᴏᴜʀ ɪᴍᴀɢᴇ & ᴠɪᴅᴇᴏ ᴀɴᴅ 𝟻 ᴍʙ.\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href='https://t.me/AV_MOVIE_HOUSE'>ᴀᴠ ʙᴏᴛᴢ</a></b>"""
+    START_TXT = """<b>ʜᴇʏ {} 👋, \n\nɪ ᴀᴍ <a href='https://t.me/AV_IMA_TO_URL_BOT'>ɪᴍᴀɢᴇ ᴛᴏ ʟɪɴᴋ</a> ʙᴏᴛ ɪᴜꜱᴛ ꜱᴇɴᴅ ᴛᴏ ʏᴏᴜʀ ɪᴍᴀɢᴇ & ᴠɪᴅᴇᴏ ᴀɴᴅ 𝟻 ᴍʙ.\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href='https://t.me/AV_MOVIE_HOUSE'>ᴀᴠ ʙᴏᴛᴢ</a></b>"""
     
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>

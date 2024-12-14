@@ -1,13 +1,13 @@
 pyrogram
-tgcrypto
 pytz
 requests==2.26.0
-telegraph==2.2.0
 pymongo
+pyrofork 
+Tgcrypto
+motor
+aiohttp
+Flask==1.1.2
 gunicorn==20.1.0
-#aiohttp==3.8.2
-#for heroku remove the aiohttp librery.
+Jinja2==3.0.3
 werkzeug==2.0.2
 itsdangerous==2.0.1
-https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
-sending

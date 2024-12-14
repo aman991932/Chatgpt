@@ -3,6 +3,7 @@ pytz
 requests
 pymongo 
 Tgcrypto
+asyncio
 motor
 aiohttp
 Flask==1.1.2

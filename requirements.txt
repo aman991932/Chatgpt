@@ -1,8 +1,7 @@
-pyrogram
+pyrofork
 pytz
-requests==2.26.0
-pymongo
-pyrofork 
+requests
+pymongo 
 Tgcrypto
 motor
 aiohttp

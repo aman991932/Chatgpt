@@ -12,6 +12,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     rm = InlineKeyboardMarkup(
         [[
+	    InlineKeyboardButton('𝐀𝐕 𝐁𝐎𝐓𝐙 𝐔𝐏𝐃𝐀𝐓𝐄 🤖', url='https://t.me/AV_BOTz_UPDATE')
+	],[
             InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url="https://t.me/AV_SUPPORT_GROUP"),
             InlineKeyboardButton("❤️‍🩹 ᴀʙᴏᴜᴛ", callback_data='about')
         ]] 
@@ -44,12 +46,14 @@ async def cb_handler(client: Client, update: CallbackQuery):
 
     elif update.data == "start":
         buttons = [[
+	    InlineKeyboardButton('𝐀𝐕 𝐁𝐎𝐓𝐙 𝐔𝐏𝐃𝐀𝐓𝐄 🤖', url='https://t.me/AV_BOTz_UPDATE')
+	],[
             InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url="https://t.me/AV_SUPPORT_GROUP"),
             InlineKeyboardButton("❤️‍🩹 ᴀʙᴏᴜᴛ", callback_data='about')
-        ]]
+        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await update.message.edit_text(
-            text=f"""<b>ʜᴇʏ {update.from_user.mention} 👋, \nɪ ᴀᴍ <a href='https://t.me/AV_IMA_TO_URL_BOT'>ɪᴍᴀɢᴇ ᴛᴏ ʟɪɴᴋ</a> ʙᴏᴛ ɪᴜꜱᴛ ꜱᴇɴᴅ ᴛᴏ ʏᴏᴜʀ ɪᴍᴀɢᴇ & ᴠɪᴅᴇᴏ ᴀɴᴅ 𝟻 ᴍʙ.\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href='https://t.me/AV_MOVIE_HOUSE'>ᴀᴠ ʙᴏᴛᴢ</a></b>""",
+            text=f"""<b>ʜᴇʏ {update.from_user.mention} 👋, \n\nɪ ᴀᴍ <a href='https://t.me/AV_IMA_TO_URL_BOT'>ɪᴍᴀɢᴇ ᴛᴏ ʟɪɴᴋ</a> ʙᴏᴛ ɪᴜꜱᴛ ꜱᴇɴᴅ ᴛᴏ ʏᴏᴜʀ ɪᴍᴀɢᴇ & ᴠɪᴅᴇᴏ ᴀɴᴅ 𝟻 ᴍʙ.\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href='https://t.me/AV_MOVIE_HOUSE'>ᴀᴠ ʙᴏᴛᴢ</a></b>""",
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
